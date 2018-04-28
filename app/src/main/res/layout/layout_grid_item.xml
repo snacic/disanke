@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/gviv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="#201e1f"/>
+    <TextView
+        android:id="@+id/gvtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridView演示画面"
+        android:textColor="#c8ff3c00"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
